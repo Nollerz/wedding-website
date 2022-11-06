@@ -54,7 +54,7 @@
                             <li><a href="#instagram">Instagram</a></li>
                             <li><a href="#eng-pics">Engagement</a></li>
                             <li class="hidden-sm hidden-xs"><a href="#video-bg">Glimpse of the city</a></li>
-                            <li><a href="bg.html">BG</a></li>
+                            <li><a href="bg.html">БГ</a></li>
                         </ul>
                         <ul class="member-actions">
                             <li><a href="#map" class="login">Venue</a></li>
@@ -122,7 +122,6 @@
                     </button>
                     <div class="section-padding">
                         <h3>Thank you!</h3>
-                        <p>We are glad to see you join us on our big day.</p>
                         <div id="add-to-cal"></div>
                     </div>
                 </div>
@@ -139,17 +138,19 @@
                       action=""
                       method="POST">
                     <div class="row">
-                        <div class="col-md-6 col-sm-6">
-                            <div class="form-input-group">
-                                <i class="fa fa-envelope"></i><input type="email" name="email" class=""
-                                                                     placeholder="Your email"
-                                                                     required>
-                            </div>
+                        <div class="form-input-group">
+                            <i class="fa fa-users"></i><input type= "text" name="email" class=""  list="attend_value"
+                                                              placeholder="Are you able to Attend?"
+                                                              required>
+                                                              <datalist id="attend_value">
+                                                                <option value="Yes">
+                                                                <option value="No">
+                                                              </datalist>                                                             
                         </div>
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
                                 <i class="fa fa-user"></i><input name="name" class=""
-                                                                 placeholder="Your name"
+                                                                 placeholder="Name of Guests"
                                                                  required>
                             </div>
                         </div>
