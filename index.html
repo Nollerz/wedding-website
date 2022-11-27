@@ -332,5 +332,17 @@ $(function(){
         jQuery("#bgndVideo").YTPlayer();
     });
 </script>
+
+<!-- the below is tro try get the values to auto poulate in form from URL clikc; not complete yet -->
+<!-- <script> 
+    $(function() {
+      google.script.url.getLocation(function(location) {
+        var locObj = location.parameter;
+        $('#btn1').click(validate);
+        Object.keys(locObj).forEach((key) => {$("#"+key).val(locObj[key])})
+      });
+    });
+</script> -->
+
 </body>
 </html>
